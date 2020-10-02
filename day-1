@@ -6,13 +6,19 @@ input_integer = int(input())
 input_double = float(input())
 input_string = input()
 
-# Read and save an integer, double, and String to your variables.
 
-# Print the sum of both integer variables on a new line.
 print(i+input_integer)
-# Print the sum of the double variables on a new line.
+
 print(d+input_double)
-# Concatenate and print the String variables on a new line
-# The 's' variable above should be printed first.
+
 print(s+input_string)
 
+'''
+**************** output ***************
+2
+6
+5.0
+9.0
+hello
+hello HackerRank
+'''
