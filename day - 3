@@ -1,0 +1,16 @@
+//day 3 code of hackerrank
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double base;
+    int tip,tax,total1;
+    float tipcost,taxcost,total;
+    scanf("%lf%d%d",&base,&tip,&tax);
+    tipcost=(base*tip)/100;
+    taxcost=(base*tax)/100;
+    total=base+tipcost+taxcost;
+    total1=round(total);
+    printf("%d",total1);
+}
